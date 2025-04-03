@@ -23,9 +23,11 @@ Instances: 37 total
 - 11 explosions
 
 EXPLORATORY VISUALIZATION
+
 Class Distribution & Feature Relationship
 
 Body-wave vs. surface-wave magnitudes, color-coded by event type.
+
 
 CLASSIFICATION
 
@@ -46,13 +48,18 @@ Polynomial Kernel (Degree = 1)
 
 Radial Kernel
 
+
 📉 Leave-One-Out Cross Validation (LOOCV)
+
 Model	        LOOCV Error
 KNN (k=3)	      ~7.4%
 SVM (Linear)	    0%
 
+
 📈 Clustering Analysis (K-Means)
+
 Although classification performed well, clustering using K-Means was also explored for unsupervised pattern recognition.
+
 
 Elbow Method
 
@@ -68,13 +75,16 @@ KNN (k=3)	           10%	                ~7.4%	       Simple, effective
 SVM (Linear)	       0%	                   0%	         Best performance, simplest kernel
 SVM (Poly/Radial)  	 0%	                   0%	         Overkill for this dataset
 
-CONCLUSIION
+
+CONCLUSION
+
 Both KNN and SVM are effective for this classification problem.
 SVM with a linear kernel achieved perfect performance with minimal complexity.
 Visualizations support clear class separability in feature space.
 K-Means clustering shows some structure but isn't sufficient for classification alone.
 
 🚀 How to Run
+
 To replicate the analysis:
 
 Place earthquake.txt in your working directory.
