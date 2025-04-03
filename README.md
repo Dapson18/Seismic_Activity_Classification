@@ -10,8 +10,11 @@ FILES INCLUDED & DESCRIPTION
 
 
 earthquake.txt: Raw dataset (body and surface wave magnitudes, event type)
+
 analysis.R: Full R script for classification and clustering
+
 figures/: Folder containing all generated plots
+
 README.md: Project documentation
 
 
@@ -55,9 +58,11 @@ Radial Kernel
 
 📉 Leave-One-Out Cross Validation (LOOCV)
 
-Model	        LOOCV Error
-KNN (k=3)	      ~7.4%
-SVM (Linear)	    0%
+Model & LOOCV Error
+
+KNN (k=3)	- ~7.4%
+
+SVM (Linear) -  0%
 
 
 📈 Clustering Analysis (K-Means)
