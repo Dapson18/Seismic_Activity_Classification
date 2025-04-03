@@ -13,6 +13,7 @@ figures/        	Folder containing all generated plots
 README.md       	Project documentation
 
 DATASET OVERVIEW
+
 Variables:
 - body: Body-wave magnitude (Mb)
 - surface: Surface-wave magnitude (Ms)
