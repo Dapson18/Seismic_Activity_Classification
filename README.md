@@ -6,13 +6,13 @@ Earthquake vs Explosion Classification using KNN and SVM
 This project analyzes a geophysical dataset to classify seismic events as either earthquakes or nuclear explosions, using supervised machine learning methods (KNN and SVM) and exploratory clustering (K-Means).
 
 
-FILES INCLUDED
+FILES INCLUDED & DESCRIPTION
 
-  File	                 Description
-earthquake.txt   	Raw dataset (body and surface wave magnitudes, event type)
-analysis.R      	Full R script for classification and clustering
-figures/        	Folder containing all generated plots
-README.md       	Project documentation
+
+earthquake.txt: Raw dataset (body and surface wave magnitudes, event type)
+analysis.R: Full R script for classification and clustering
+figures/: Folder containing all generated plots
+README.md: Project documentation
 
 
 DATASET OVERVIEW
